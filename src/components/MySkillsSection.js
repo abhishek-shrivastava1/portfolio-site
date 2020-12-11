@@ -14,7 +14,7 @@ const MySkillsSection = () => {
         <StyledCards>
           <StyledCard>
             <div className="icon">
-              <i class="fab fa-java fa-3x "></i>
+              <i className="fab fa-java fa-3x "></i>
               <h3>Java</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -22,7 +22,7 @@ const MySkillsSection = () => {
 
           <StyledCard>
             <div className="icon">
-              <i class="fab fa-js-square fa-3x"></i>
+              <i className="fab fa-js-square fa-3x"></i>
               <h3>JavaScript</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -30,7 +30,7 @@ const MySkillsSection = () => {
 
           <StyledCard>
             <div className="icon">
-              <i class="fas fa-leaf fa-3x"></i>
+              <i className="fas fa-leaf fa-3x"></i>
               <h3>Spring boot</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -38,7 +38,7 @@ const MySkillsSection = () => {
 
           <StyledCard>
             <div className="icon">
-              <i class="fab fa-react fa-3x"></i>
+              <i className="fab fa-react fa-3x"></i>
               <h3>React</h3>
             </div>
             <p>Lorem ipsum dolor sit amet consectetur.</p>

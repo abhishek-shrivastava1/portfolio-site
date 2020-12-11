@@ -10,7 +10,6 @@ const GlobalStyle = createGlobalStyle`
     body {
         background-color: #1b1b1b;
         font-family: 'Inter', sans-serif;
-        ${"" /* font-family: 'Lobster', cursive; */}
     }
 
     button {
@@ -39,8 +38,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     h4 {
-        font-weight: bold;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     span {
@@ -55,9 +53,10 @@ const GlobalStyle = createGlobalStyle`
     p {
         padding: 3rem;
         color: #ccc;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         line-height: 150%;
     }
+        
 `;
 
 export default GlobalStyle;

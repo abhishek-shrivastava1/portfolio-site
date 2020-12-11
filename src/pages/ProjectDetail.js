@@ -1,14 +1,90 @@
+import { useState } from "react";
 // Styles
 import styled from "styled-components";
 // Router
-import { useHistory } from "react-router-dom";
+import { useParams } from "react-router-dom";
+// Data
+import { projectData } from "../Data";
+// Component
+import Award from "../components/Award";
+// Animation
+import { motion } from "framer-motion";
+import { PageAnimation } from "../Animation";
 
 const ProjectDetail = () => {
+  const param = useParams();
+  const [project] = useState(
+    projectData().filter((p) => p.url === `/work/${param.id}`)[0]
+  );
   return (
-    <div>
-      <h1>Project detail</h1>
-    </div>
+    <>
+      {project && (
+        <StyledProject
+          variants={PageAnimation}
+          initial={PageAnimation.hidden}
+          animate={PageAnimation.show}
+          exit={PageAnimation.exit}
+        >
+          <StyledHeadline>
+            <h2>{project.title}</h2>
+            <img src={project.mainImg} alt={project.title} />
+          </StyledHeadline>
+          <AwardsStyle>
+            {project.awards.map((award) => (
+              <Award
+                key={award.id}
+                title={award.title}
+                description={award.description}
+              />
+            ))}
+          </AwardsStyle>
+          <StyledSecondaryImage>
+            <img src={project.secondaryImg} alt={`${project.title}`} />
+          </StyledSecondaryImage>
+        </StyledProject>
+      )}
+    </>
   );
 };
+
+const StyledProject = styled(motion.div)`
+  color: white;
+`;
+
+const StyledHeadline = styled.div`
+  min-height: 90vh;
+  padding-top: 20vh;
+  position: relative;
+
+  h2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+  }
+
+  img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+  }
+`;
+
+const AwardsStyle = styled.div`
+  min-height: 60vh;
+  display: flex;
+  margin: 3rem 10rem;
+  align-items: center;
+  justify-content: space-around;
+`;
+
+const StyledSecondaryImage = styled.div`
+  min-height: 50vh;
+  img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+`;
 
 export default ProjectDetail;
