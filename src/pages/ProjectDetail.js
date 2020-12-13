@@ -14,16 +14,16 @@ import { PageAnimation } from "../Animation";
 const ProjectDetail = () => {
   const param = useParams();
   const [project] = useState(
-    projectData().filter((p) => p.url === `/work/${param.id}`)[0]
+    projectData.filter((p) => p.url === `/work/${param.id}`)[0]
   );
   return (
     <>
       {project && (
         <StyledProject
           variants={PageAnimation}
-          initial={PageAnimation.hidden}
-          animate={PageAnimation.show}
-          exit={PageAnimation.exit}
+          initial="hidden"
+          animate="show"
+          exit="exit"
         >
           <StyledHeadline>
             <h2>{project.title}</h2>
@@ -39,7 +39,7 @@ const ProjectDetail = () => {
             ))}
           </AwardsStyle>
           <StyledSecondaryImage>
-            <img src={project.secondaryImg} alt={`${project.title}`} />
+            <img src={project.secondaryImg} alt={project.title} />
           </StyledSecondaryImage>
         </StyledProject>
       )}
@@ -61,6 +61,9 @@ const StyledHeadline = styled.div`
     top: 10%;
     left: 50%;
     transform: translate(-50%, -10%);
+    @media (max-width: 1290px) {
+      width: 300px;
+    }
   }
 
   img {
@@ -76,6 +79,10 @@ const AwardsStyle = styled.div`
   margin: 3rem 10rem;
   align-items: center;
   justify-content: space-around;
+  @media (max-width: 1290px) {
+    display: block;
+    margin: 2rem;
+  }
 `;
 
 const StyledSecondaryImage = styled.div`

@@ -40,6 +40,7 @@ export const fadeIn = {
   show: {
     opacity: 1,
     transition: {
+      // staggerChildren: 0.2,
       ease: "easeOut",
       duration: 1,
     },
@@ -82,7 +83,7 @@ export const rotateContainer = {
     opacity: 1,
     transition: {
       staggerChildren: 0.15,
-      duration: 1,
+      // duration: 1,
       ease: "easeOut",
     },
   },
@@ -99,6 +100,25 @@ export const rotate = {
     transition: {
       duration: 1,
       ease: "easeOut",
+    },
+  },
+};
+
+export const scrollReveal = {
+  hidden: {
+    opacity: 0,
+    scale: 1.2,
+    transition: {
+      // ease: "easeOut",
+      duration: 0.5,
+    },
+  },
+  show: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      // ease: "easeOut",
+      duration: 0.5,
     },
   },
 };

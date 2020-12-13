@@ -4,13 +4,20 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 // Styled Component
-export const StyledAbout = styled.div`
+export const StyledAbout = styled(motion.div)`
   min-height: 90vh;
+  top: 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 5rem 7rem;
   color: white;
+
+  @media (max-width: 1290px) {
+    display: block;
+    padding: 2rem;
+    text-align: center;
+  }
 `;
 
 export const StyledDescription = styled.div`
@@ -19,6 +26,12 @@ export const StyledDescription = styled.div`
   z-index: 2;
   h2 {
     font-weight: lighter;
+  }
+  @media (max-width: 1290px) {
+    padding: 0;
+    button {
+      margin: 2rem 0 5rem 0;
+    }
   }
 `;
 
@@ -35,4 +48,12 @@ export const StyledImage = styled(motion.div)`
 
 export const StyledHide = styled.div`
   overflow: hidden;
+`;
+
+export const StyledCards = styled(motion.div)`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 2rem;
+  position: relative;
 `;

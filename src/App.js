@@ -7,15 +7,18 @@ import GlobalStyle from "./components/GlobalStyle";
 import Nav from "./components/Nav";
 import Work from "./pages/Work";
 import Contact from "./pages/Contact";
+import ScrollTop from "./components/ScrollTop";
 // Router
 import { Route, Switch, useLocation } from "react-router-dom";
 // Animation
 import { AnimatePresence } from "framer-motion";
+import Footer from "./components/Footer";
 
 function App() {
   const location = useLocation();
   return (
     <div className="App">
+      <ScrollTop />
       <GlobalStyle />
       <Nav />
       <AnimatePresence exitBeforeEnter>
@@ -32,6 +35,7 @@ function App() {
           </Route>
         </Switch>
       </AnimatePresence>
+      <Footer />
     </div>
   );
 }

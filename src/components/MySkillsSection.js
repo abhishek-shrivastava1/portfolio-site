@@ -1,48 +1,43 @@
 // images
 import HomeImage from "../img/home2.png";
 // Styled Component
-import { StyledAbout, StyledDescription, StyledImage } from "../Styles";
+import {
+  StyledAbout,
+  StyledDescription,
+  StyledImage,
+  StyledCards,
+} from "../Styles";
 import styled from "styled-components";
+// Hooks
+import { useScroll } from "../hooks/useScroll";
+// Animations
+import { scrollReveal } from "../Animation";
+// Data
+import { skillsDetails } from "../Data";
+// Components
+import Card from "../components/Card";
 
 const MySkillsSection = () => {
+  const [element, controls] = useScroll();
   return (
-    <StyledSkills>
+    <StyledSkills
+      variants={scrollReveal}
+      ref={element}
+      initial="hidden"
+      animate={controls}
+    >
       <StyledDescription>
         <h2>
           My <span>skills</span>.
         </h2>
         <StyledCards>
-          <StyledCard>
-            <div className="icon">
-              <i className="fab fa-java fa-3x "></i>
-              <h3>Java</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </StyledCard>
-
-          <StyledCard>
-            <div className="icon">
-              <i className="fab fa-js-square fa-3x"></i>
-              <h3>JavaScript</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </StyledCard>
-
-          <StyledCard>
-            <div className="icon">
-              <i className="fas fa-leaf fa-3x"></i>
-              <h3>Spring boot</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </StyledCard>
-
-          <StyledCard>
-            <div className="icon">
-              <i className="fab fa-react fa-3x"></i>
-              <h3>React</h3>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur.</p>
-          </StyledCard>
+          {skillsDetails.map((skill) => (
+            <Card
+              icon={skill.icon}
+              name={skill.name}
+              percentage={skill.percentage}
+            />
+          ))}
         </StyledCards>
       </StyledDescription>
       <StyledImage>
@@ -61,26 +56,8 @@ const StyledSkills = styled(StyledAbout)`
   p {
     width: 250px;
     padding: 0.5rem;
-  }
-`;
-
-const StyledCards = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-`;
-
-const StyledCard = styled.div`
-  padding: 1rem 0;
-
-  .icon {
-    display: flex;
-    align-items: center;
-
-    h3 {
-      margin-left: 1rem;
-      /* background: white;
-      color: black; */
-      padding: 1rem;
+    @media (max-width: 1290px) {
+      width: 350px;
     }
   }
 `;

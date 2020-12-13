@@ -5,6 +5,7 @@ import FaqSection from "../components/FaqSection";
 // Animation
 import { motion } from "framer-motion";
 import { PageAnimation } from "../Animation";
+import { StyledHide } from "../Styles";
 
 const AboutMe = () => {
   return (
@@ -14,9 +15,11 @@ const AboutMe = () => {
       animate="show"
       exit={PageAnimation.exit}
     >
-      <AboutMeSection />
-      <MySkillsSection />
-      <FaqSection />
+      <StyledHide>
+        <AboutMeSection />
+        <MySkillsSection />
+        <FaqSection />
+      </StyledHide>
     </motion.div>
   );
 };

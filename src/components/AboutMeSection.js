@@ -12,6 +12,8 @@ import {
 // Animation
 import { motion } from "framer-motion";
 import { slideUp, fadeIn, zoomOut } from "../Animation";
+// Router
+import { Link } from "react-router-dom";
 
 const AboutMeSection = () => {
   return (
@@ -37,7 +39,9 @@ const AboutMeSection = () => {
           and I aspire to utilize my skills in an organization which gives me an
           opportunity to learn and grow.
         </motion.p>
-        <motion.button variants={fadeIn}>Contact Me</motion.button>
+        <Link to="/contact">
+          <motion.button variants={fadeIn}>Contact Me</motion.button>
+        </Link>
       </StyledDescription>
       <StyledImage>
         <motion.img

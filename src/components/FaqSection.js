@@ -6,16 +6,25 @@ import { FaqData } from "../Data";
 import Faq from "./Faq";
 // Animate
 import { AnimateSharedLayout } from "framer-motion";
+import { scrollReveal } from "../Animation";
+// Hooks
+import { useScroll } from "../hooks/useScroll";
 
 const FaqSection = () => {
+  const [element, controls] = useScroll();
   return (
-    <StyledFaq>
+    <StyledFaq
+      variants={scrollReveal}
+      ref={element}
+      initial="hidden"
+      animate={controls}
+    >
       <h2>
         Any Questions <span>FAQ</span>
       </h2>
       <AnimateSharedLayout>
         {FaqData.map((data) => (
-          <Faq question={data.question} answer={data.answer} />
+          <Faq key={data.id} question={data.question} answer={data.answer} />
         ))}
       </AnimateSharedLayout>
     </StyledFaq>
@@ -33,6 +42,5 @@ const StyledFaq = styled(StyledAbout)`
     font-weight: lighter;
   }
 `;
-// const StyledQuestion =
 
 export default FaqSection;
