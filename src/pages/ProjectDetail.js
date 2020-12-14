@@ -18,7 +18,9 @@ const ProjectDetail = () => {
   );
   return (
     <>
-      {project && (
+      {!project ? (
+        <p>Not Found</p>
+      ) : (
         <StyledProject
           variants={PageAnimation}
           initial="hidden"

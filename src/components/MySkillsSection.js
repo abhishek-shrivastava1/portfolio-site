@@ -33,6 +33,7 @@ const MySkillsSection = () => {
         <StyledCards>
           {skillsDetails.map((skill) => (
             <Card
+              key={skill.id}
               icon={skill.icon}
               name={skill.name}
               percentage={skill.percentage}
