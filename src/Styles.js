@@ -13,6 +13,10 @@ export const StyledAbout = styled(motion.div)`
   padding: 5rem 7rem;
   color: white;
 
+  button {
+    margin-right: 0.7rem;
+  }
+
   @media (max-width: 1290px) {
     display: block;
     padding: 2rem;

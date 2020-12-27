@@ -190,7 +190,7 @@ export const skillsDetails = [
     id: 1,
     icon: "fab fa-java fa-3x ",
     name: "Java",
-    percentage: "80%",
+    percentage: "85%",
   },
   {
     id: 2,
@@ -200,15 +200,33 @@ export const skillsDetails = [
   },
   {
     id: 3,
-    icon: "fas fa-leaf fa-3x",
-    name: "SpringBoot",
-    percentage: "85%",
+    icon: "fas fa-database fa-3x",
+    name: "Database",
+    percentage: "80%",
   },
   {
     id: 4,
     icon: "fab fa-react fa-3x",
     name: "React",
     percentage: "75%",
+  },
+  {
+    id: 5,
+    icon: "fas fa-cubes fa-3x",
+    name: "Data Structures",
+    percentage: "75%",
+  },
+  {
+    id: 6,
+    icon: "fas fa-leaf fa-3x",
+    name: "Problem solving",
+    percentage: "90%",
+  },
+  {
+    id: 7,
+    icon: "fas fa-leaf fa-3x",
+    name: "Spring Boot",
+    percentage: "85%",
   },
 ];
 
@@ -238,5 +256,56 @@ export const contactInformation = [
     id: 5,
     title: "DOB",
     information: "14/09/1997",
+  },
+];
+
+export const experienceData = [
+  {
+    id: 1,
+    designation: "Software Development Engineer II",
+    company: "Proctur - Your pocket classroom",
+    from: "10/11/2019",
+    to: "10/11/2020",
+    description: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+    ],
+  },
+  {
+    id: 2,
+    designation: "xyz",
+    company: "proctur",
+    from: "10/11/2019",
+    to: "10/11/2020",
+    description: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+    ],
+  },
+  {
+    id: 3,
+    designation: "xyz",
+    company: "proctur",
+    from: "10/11/2019",
+    to: "10/11/2020",
+    description: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+    ],
+  },
+  {
+    id: 4,
+    designation: "xyz",
+    company: "proctur",
+    from: "10/11/2019",
+    to: "10/11/2020",
+    description: [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+    ],
   },
 ];

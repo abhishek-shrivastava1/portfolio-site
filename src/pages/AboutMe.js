@@ -1,6 +1,7 @@
 // Components
 import AboutMeSection from "../components/AboutMeSection";
 import MySkillsSection from "../components/MySkillsSection";
+import MyExperienceSection from "../components/MyExperienceSection";
 import FaqSection from "../components/FaqSection";
 // Animation
 import { motion } from "framer-motion";
@@ -18,6 +19,7 @@ const AboutMe = () => {
       <StyledHide>
         <AboutMeSection />
         <MySkillsSection />
+        <MyExperienceSection />
         <FaqSection />
       </StyledHide>
     </motion.div>

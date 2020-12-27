@@ -8,16 +8,24 @@ const GlobalStyle = createGlobalStyle`
     }
 
     html {
-        ${"" /* overflow-x: hidden; */}
         @media (max-width: 1290px) {
             font-size: 80%;
+        }
+        &::-webkit-scrollbar {
+            width: 0.5rem;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: #23d997;
+            border-radius: 1rem;
+        }
+        &::-webkit-scrollbar-track {
+            background: #353535;
         }
     }
 
     body {
         background-color: #1b1b1b;
         font-family: 'Inter', sans-serif;
-        overflow-x: hidden;
     }
 
     button {

@@ -42,6 +42,9 @@ const AboutMeSection = () => {
         <Link to="/contact">
           <motion.button variants={fadeIn}>Contact Me</motion.button>
         </Link>
+        <motion.a href="https://drive.google.com/u/1/uc?id=1_BT_guPhyfwGn4Eq3LlzpJBEX4cvWGAU&export=download">
+          <motion.button variants={fadeIn}>Download my resume</motion.button>
+        </motion.a>
       </StyledDescription>
       <StyledImage>
         <motion.img

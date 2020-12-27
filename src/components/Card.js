@@ -12,9 +12,10 @@ const Card = ({ icon, name, percentage }) => {
         <h3>{name}</h3>
       </div>
       <StyledLine
-        initial={{ width: 0 }}
-        animate={{ width: percentage }}
-        transition={{ duration: 3 }}
+        variants={{
+          hidden: { width: 0 },
+          show: { width: percentage, transition: { duration: 2 } },
+        }}
       />
       <div
         style={{

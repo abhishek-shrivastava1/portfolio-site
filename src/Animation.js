@@ -122,3 +122,15 @@ export const scrollReveal = {
     },
   },
 };
+
+export const popUp = {
+  hidden: { scale: 0 },
+  show: {
+    scale: 1,
+    // transform: "translateX(50%)",
+    transition: {
+      duration: 1,
+      ease: "easeOut",
+    },
+  },
+};
