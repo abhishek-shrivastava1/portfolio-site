@@ -9,8 +9,13 @@ import SocialCard from "../components/SocialCard";
 import ContactDetail from "../components/ContactDetail";
 // Data
 import { socialDetails, contactInformation } from "../Data";
+// react
+import { useEffect } from "react";
 
 const Contact = () => {
+  useEffect(() => {
+    document.body.style.overflow = "auto";
+  }, []);
   return (
     <StyledContact
       variants={PageAnimation}

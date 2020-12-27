@@ -2,7 +2,15 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 
-const ExperienceCard = ({ id, from, to, designation, company, onClick }) => {
+const ExperienceCard = ({
+  id,
+  from,
+  to,
+  designation,
+  company,
+  timelineDate,
+  onClick,
+}) => {
   return (
     <StyledExperienceCard onClick={onClick} layoutId={id.toString()}>
       <div className="content">
@@ -10,7 +18,7 @@ const ExperienceCard = ({ id, from, to, designation, company, onClick }) => {
         <h3>{company}</h3>
         <p>{`${from} - ${to}`}</p>
       </div>
-      <div className="time">{from}</div>
+      <div className="time">{timelineDate}</div>
     </StyledExperienceCard>
   );
 };
@@ -18,7 +26,7 @@ const ExperienceCard = ({ id, from, to, designation, company, onClick }) => {
 const StyledExperienceCard = styled(motion.div)`
   padding: 2rem;
   cursor: pointer;
-  /* border-radius: 1rem; */
+  border-radius: 1rem;
   background-color: #2a2a2a;
   color: #d3d3d3;
   @media (min-width: 768px) {
@@ -26,6 +34,7 @@ const StyledExperienceCard = styled(motion.div)`
   }
   h2 {
     font-size: 2rem;
+    color: #23d997;
   }
   h3 {
     margin: 0.5rem 0 0.2rem;

@@ -8,8 +8,12 @@ import { PageAnimation } from "../Animation";
 import FrameAnimation from "../components/FrameAnimation";
 // Components
 import WorkSummary from "../components/WorkSummary";
+import { useEffect } from "react";
 
 const Work = () => {
+  useEffect(() => {
+    document.body.style.overflow = "auto";
+  }, []);
   return (
     <StyledWork
       variants={PageAnimation}

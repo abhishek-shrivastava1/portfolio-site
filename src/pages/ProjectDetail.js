@@ -10,8 +10,12 @@ import Award from "../components/Award";
 // Animation
 import { motion } from "framer-motion";
 import { PageAnimation } from "../Animation";
+import { useEffect } from "react";
 
 const ProjectDetail = () => {
+  useEffect(() => {
+    document.body.style.overflow = "auto";
+  }, []);
   const param = useParams();
   const [project] = useState(
     projectData.filter((p) => p.url === `/work/${param.id}`)[0]

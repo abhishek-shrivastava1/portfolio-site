@@ -7,8 +7,13 @@ import FaqSection from "../components/FaqSection";
 import { motion } from "framer-motion";
 import { PageAnimation } from "../Animation";
 import { StyledHide } from "../Styles";
+import Testimonial from "../components/Testmonial";
+import { useEffect } from "react";
 
 const AboutMe = () => {
+  useEffect(() => {
+    document.body.style.overflow = "auto";
+  }, []);
   return (
     <motion.div
       variants={PageAnimation}
@@ -20,6 +25,7 @@ const AboutMe = () => {
         <AboutMeSection />
         <MySkillsSection />
         <MyExperienceSection />
+        <Testimonial />
         <FaqSection />
       </StyledHide>
     </motion.div>

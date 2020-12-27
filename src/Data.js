@@ -266,6 +266,7 @@ export const experienceData = [
     company: "Proctur - Your pocket classroom",
     from: "10/11/2019",
     to: "10/11/2020",
+    timelineDate: "10th January",
     description: [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
@@ -278,6 +279,7 @@ export const experienceData = [
     company: "proctur",
     from: "10/11/2019",
     to: "10/11/2020",
+    timelineDate: "10th January",
     description: [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
@@ -290,6 +292,7 @@ export const experienceData = [
     company: "proctur",
     from: "10/11/2019",
     to: "10/11/2020",
+    timelineDate: "10th January",
     description: [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
@@ -302,10 +305,32 @@ export const experienceData = [
     company: "proctur",
     from: "10/11/2019",
     to: "10/11/2020",
+    timelineDate: "10th January",
     description: [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
     ],
+  },
+];
+
+export const testimonialData = [
+  {
+    id: 1,
+    name: "Vasanti Derkar",
+    image: goodtimes,
+    testimonial:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto dolorum libero doloremque dolor ratione molestiae suscipit numquam tempore, soluta ipsum quo magni sed eius inventore natus aut ipsam molestias vitae distinctio laboriosam hic explicabo deleniti debitis nulla! Harum, natus soluta!",
+    date: "20/10/2019",
+    profileLink: "qewrei",
+  },
+  {
+    id: 2,
+    name: "Rashmi Shrivastava",
+    image: goodtimes,
+    testimonial:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto dolorum libero doloremque dolor ratione molestiae suscipit numquam tempore, soluta ipsum quo magni sed eius inventore natus aut ipsam molestias vitae distinctio laboriosam hic explicabo deleniti debitis nulla! Harum, natus soluta!",
+    date: "20/10/2019",
+    profileLink: "qewrei",
   },
 ];
