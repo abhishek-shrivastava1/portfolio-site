@@ -1,90 +1,176 @@
 //Import Images
-import athlete from "./img/athlete-small.png";
-import goodtimes from "./img/goodtimes-small.png";
-import theracer from "./img/theracer-small.png";
-import athlete2 from "./img/athlete2.png";
-import goodtimes2 from "./img/good-times2.jpg";
-import theracer2 from "./img/the-racer2.jpg";
+import ignite1 from "./img/ignite-1.png";
+import ignite2 from "./img/ignite-2.png";
+import payNow from "./img/paynow-1.png";
+import musicPlayer1 from "./img/music-player-1.png";
+import musicPlayer2 from "./img/music-player-2.png";
+import googleKeeper1 from "./img/google-keeper.png";
+import googleKeeper2 from "./img/google-keeper-2.png";
+import tinDog1 from "./img/tindog-1.png";
+import tinDog2 from "./img/tindog-2.png";
+import simonGame1 from "./img/simon-game-1.png";
+import simonGame2 from "./img/simon-game-2.png";
+
+// Testimonials images
+import vasanti from "./img/vasanti.jfif";
+import rashmi from "./img/rashmi.jfif";
+import gulfam from "./img/gulfam.jfif";
+import samira from "./img/samira.jfif";
 
 export const projectData = [
   {
     id: 1,
-    title: "The Athlete",
-    mainImg: athlete,
-    secondaryImg: athlete2,
-    url: "/work/the-athlete",
+    title: "Ignite - IMDB clone for games",
+    mainImg: ignite1,
+    secondaryImg: ignite2,
+    url: "/work/ignite",
+    githubUrl: "https://github.com/abhishek-shrivastava1/ignite-imdb-clone",
     awards: [
       {
         id: 1,
-        title: "Truly A masterpiece",
-        description:
-          "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+        title: "About",
+        description: "“A clone of IMDB made for games.”",
       },
       {
         id: 2,
-        title: "Fresh look on a brutal sport.",
+        title: "Technologies used",
         description:
-          "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+          "“ReactJS, Redux, Framer Motion, Styled components, Axios, React Router, Bootstrap”",
       },
       {
         id: 3,
-        title: "It’s okay lmao.",
+        title: "Inspiration",
         description:
-          "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+          "“The reason to make this project was to have good understanding of redux.”",
       },
     ],
   },
   {
     id: 2,
-    title: "Good Times",
-    mainImg: goodtimes,
-    url: "/work/good-times",
-    secondaryImg: goodtimes2,
+    title: "PayNow! - Payment mangement dashboard",
+    mainImg: payNow,
+    url: "/work/pay-now",
+    // secondaryImg: goodtimes2,
+    githubUrl:
+      "https://github.com/abhishek-shrivastava1/payment-dashboard-react",
     awards: [
       {
         id: 1,
-        title: "Truly A masterpiece",
-        description:
-          "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+        title: "About",
+        description: "“Payment dashboard to manage your payments.”",
       },
       {
         id: 2,
-        title: "Fresh look on a brutal sport.",
-        description:
-          "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+        title: "Technologies used",
+        description: "“ReactJS, React Router, Bootstrap”",
       },
       {
         id: 3,
-        title: "It’s okay lmao.",
+        title: "Inspiration",
         description:
-          "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+          "“The reason to make this project was to create large scale project kind of application”",
       },
     ],
   },
   {
     id: 3,
-    title: "The Racer",
-    mainImg: theracer,
-    url: "/work/the-racer",
-    secondaryImg: theracer2,
+    title: "Waves - Music player",
+    mainImg: musicPlayer1,
+    url: "/work/waves",
+    githubUrl: "https://github.com/abhishek-shrivastava1/music-player",
+    secondaryImg: musicPlayer2,
     awards: [
       {
         id: 1,
-        title: "Truly A masterpiece",
-        description:
-          "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+        title: "About",
+        description: "“Music player with all major functionality”",
       },
       {
         id: 2,
-        title: "Fresh look on a brutal sport.",
-        description:
-          "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+        title: "Technologies used",
+        description: "“ReactJS, Sass”",
       },
       {
         id: 3,
-        title: "It’s okay lmao.",
+        title: "Inspiration",
         description:
-          "“Lorem Ipsum is simply dummy text of the printing and typesetting industry.”",
+          "“The reason to make this project was to managem complex components in core react”",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Keeper - Google keeper clone",
+    mainImg: googleKeeper1,
+    url: "/work/keeper",
+    githubUrl: "https://github.com/abhishek-shrivastava1/react-google-keeper",
+    secondaryImg: googleKeeper2,
+    awards: [
+      {
+        id: 1,
+        title: "About",
+        description: "“Google keeper clone to maintain notes”",
+      },
+      {
+        id: 2,
+        title: "Technologies used",
+        description: "“ReactJS”",
+      },
+      {
+        id: 3,
+        title: "Inspiration",
+        description: "“A basic react project to understand concepts of react.”",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "TinDog - Tinder clone for dogs",
+    mainImg: tinDog1,
+    url: "/work/tindog",
+    githubUrl: "https://github.com/abhishek-shrivastava1/tin-dog",
+    secondaryImg: tinDog2,
+    awards: [
+      {
+        id: 1,
+        title: "About",
+        description: "“Clone of tinder website”",
+      },
+      {
+        id: 2,
+        title: "Technologies used",
+        description: "“HTML, CSS, Bootstrap”",
+      },
+      {
+        id: 3,
+        title: "Inspiration",
+        description:
+          "“A basic project to have understanding of basic html, css”",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Simon says - Game",
+    mainImg: simonGame1,
+    url: "/work/simonsays",
+    githubUrl: "https://github.com/abhishek-shrivastava1/simon-game",
+    secondaryImg: simonGame2,
+    awards: [
+      {
+        id: 1,
+        title: "About",
+        description: "“Simon says game.”",
+      },
+      {
+        id: 2,
+        title: "Technologies used",
+        description: "“HTML, CSS, JS, JQuery”",
+      },
+      {
+        id: 3,
+        title: "Inspiration",
+        description: "“A simple project made to have understanding of pure JS”",
       },
     ],
   },
@@ -93,27 +179,27 @@ export const projectData = [
 export const FaqData = [
   {
     id: 1,
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit.?",
+    question: "What kind of projects do I want to work on?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis autem aliquid sit, inventore accusantium dolorem impedit quis corporis distinctio quas dolor repellendus, quo dolorum temporibus",
+      "I would prefer to work on challenging projects on which I can apply my fullstack skills. I would like to work on projects that are very large scale. ",
   },
   {
     id: 2,
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit.?",
+    question: "What kind of technologies intrests me?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis autem aliquid sit, inventore accusantium dolorem impedit quis corporis distinctio quas dolor repellendus, quo dolorum temporibus",
+      "I am currently very intrested in working on technologies like SpringBoot, ReactJS. I prefer to work on projects that use microservices architecture.",
   },
   {
     id: 3,
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit.?",
+    question: "What kind of opportunities am I open to?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis autem aliquid sit, inventore accusantium dolorem impedit quis corporis distinctio quas dolor repellendus, quo dolorum temporibus",
+      "I am pretty open to all kinds of opportunities, be it full-time, part-time, freelance or consultation based projects as long as they are challenging and fun. ",
   },
   {
     id: 4,
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit.?",
+    question: "What are the other things that I am intrested in?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis autem aliquid sit, inventore accusantium dolorem impedit quis corporis distinctio quas dolor repellendus, quo dolorum temporibus",
+      "Other than work, I am intrested in playing volleyball, skating, gaming and binge watching. I also love to eat and hangout with loved ones.",
   },
 ];
 
@@ -262,54 +348,75 @@ export const contactInformation = [
 export const experienceData = [
   {
     id: 1,
-    designation: "Software Development Engineer II",
-    company: "Proctur - Your pocket classroom",
-    from: "10/11/2019",
-    to: "10/11/2020",
-    timelineDate: "10th January",
+    designation: "Software Engineer",
+    company: "Proctur - Eduspace Technologies Pvt. Ltd.",
+    from: "September 2019",
+    to: "Current",
+    companyWebsite: "https://proctur.com",
+    timelineDate: "September 2019",
     description: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+      "- Responsible for designing & development of advance features of a super-admin product",
+      "- Implemented JWT in the product",
+      "- Integration with various platform such as Facebook lead, Zoom and Proctur Live.",
+      "- Interactions with the client side as and when needed",
+      "- Responsible for implementation of major features like Role base access control,",
+      "- Single device login, Proctur live and other CRON Jobs",
+      "- Responsible for development front end features using html CSS javascript",
+      "- jQuery and JSP.",
+      "- Actively involved in deployment & sanity of new features",
     ],
   },
   {
     id: 2,
-    designation: "xyz",
-    company: "proctur",
-    from: "10/11/2019",
-    to: "10/11/2020",
-    timelineDate: "10th January",
+    designation: "Web Development Consultant",
+    company: "Digital Media Hub",
+    from: "March 2020",
+    to: "September 2020",
+    timelineDate: "March 2020",
     description: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+      "- Responsible for planning, development & delivery of the websites handled.",
+      "- Major role in front end development",
+      "- Managing & assigning a team of two full time developers of the company",
+      "- Trouble shooting issues",
+      "- Developed web app using ReactJS, HTML/CSS, JavaScript",
     ],
   },
   {
     id: 3,
-    designation: "xyz",
-    company: "proctur",
-    from: "10/11/2019",
-    to: "10/11/2020",
-    timelineDate: "10th January",
+    designation: "Software Trainee",
+    company: "Proctur - Eduspace Technologies Pvt. Ltd.",
+    from: "June 2019",
+    to: "August 2019",
+    timelineDate: "June 2019",
     description: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+      "- Responsible for designing & development of a super-admin product for in-house operations using SpringBoot & MySQL",
+      "- Responsible for complete SDLC for same",
+      "- Major role in developing backend",
+      "- Creation and maintenance of documentation",
     ],
   },
   {
     id: 4,
-    designation: "xyz",
-    company: "proctur",
-    from: "10/11/2019",
-    to: "10/11/2020",
-    timelineDate: "10th January",
+    designation: "Software Intern",
+    company: "Proctur - Eduspace Technologies Pvt. Ltd.",
+    from: "April 2019",
+    to: "May 2019",
+    timelineDate: "April 2019",
     description: [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Est suscipit laudantium a assumenda, commodi fugiat mollitia amet nihil cupiditate debitis consectetur harum asperiores. Aut, assumenda?",
+      "- Created and managed API documentation",
+      "- Created API on SpringBoot for the inhouse product",
+    ],
+  },
+  {
+    id: 5,
+    designation: "Freelance Web Developer",
+    company: "Digital Media Hub",
+    from: "January 2019",
+    to: "March 2019",
+    timelineDate: "January 2019",
+    description: [
+      "- Responsible for developing front end unsing WordPress, HTML / CSS & JavaScript",
+      "- Responsible for planning timelines, Submission & Deployment",
     ],
   },
 ];
@@ -318,19 +425,41 @@ export const testimonialData = [
   {
     id: 1,
     name: "Vasanti Derkar",
-    image: goodtimes,
+    image: vasanti,
     testimonial:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto dolorum libero doloremque dolor ratione molestiae suscipit numquam tempore, soluta ipsum quo magni sed eius inventore natus aut ipsam molestias vitae distinctio laboriosam hic explicabo deleniti debitis nulla! Harum, natus soluta!",
-    date: "20/10/2019",
-    profileLink: "qewrei",
+      "Abhishek is a fantastic person to work with, and is not only a multi-skilled and insightful colleague, but also an inspiring strategist. Very good person & a great employee with a very strong problem solving skills, inspite of being a fresher. Desire for proficiency and education makes Abhishek a valuable asset to the team & any company.",
+    date: "28th November 2019",
+    profileLink:
+      "https://www.linkedin.com/in/vasanti-derkar-0a3540143/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BksN3tRdOQGWg8t69InWJ%2BA%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-recommendation_details_profile",
   },
   {
     id: 2,
     name: "Rashmi Shrivastava",
-    image: goodtimes,
+    image: rashmi,
     testimonial:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto dolorum libero doloremque dolor ratione molestiae suscipit numquam tempore, soluta ipsum quo magni sed eius inventore natus aut ipsam molestias vitae distinctio laboriosam hic explicabo deleniti debitis nulla! Harum, natus soluta!",
-    date: "20/10/2019",
-    profileLink: "qewrei",
+      "Abhishek is very easy to work with and positive be it in a team or as an individual. He is proactive, has desire to learn new stacks/ technologies and help others. He has excellent understanding of client/project requirements, timelines and has always new ideas for the team as well as projects. I am always satisfied with the quality of work that he has provided. Would love to work with him again in future.",
+    date: "11th December 2020",
+    profileLink:
+      "https://www.linkedin.com/in/rashmi-shrivastava-3280b983/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BSmnL%2FK9MQx20jdDY0UZzrA%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-recommendation_details_profile",
+  },
+  {
+    id: 3,
+    name: "Gulfam Ali",
+    image: gulfam,
+    testimonial:
+      "Abhishek is a fantastic person to work with, and is not only a multi-skilled and insightful colleague, but also an inspiring strategist. Very good person & a great employee with a very strong problem solving skills, inspite of being a fresher. Desire for proficiency and education makes Abhishek a valuable asset to the team & any company.",
+    date: "28/11/2019",
+    profileLink:
+      "https://www.linkedin.com/in/vasanti-derkar-0a3540143/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BksN3tRdOQGWg8t69InWJ%2BA%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-recommendation_details_profile",
+  },
+  {
+    id: 4,
+    name: "Samira Nikharge",
+    image: samira,
+    testimonial:
+      "We have been hands on various projects together and Abhishek is one of the best people I had as a patner, He has strong problem solving skills and his ability for tackling problems is remarkable! His dedication to work on various projects and desire to learn various technologies has always inspired me, as a team member Abhishek earns my highest recommendation.",
+    date: "11/12/2020",
+    profileLink:
+      "https://www.linkedin.com/in/rashmi-shrivastava-3280b983/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BSmnL%2FK9MQx20jdDY0UZzrA%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-recommendation_details_profile",
   },
 ];

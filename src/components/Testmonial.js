@@ -13,7 +13,9 @@ const Testimonial = () => {
         {testimonialData.map((data) => (
           <Carousel.Item interval={2000} key={data.id}>
             <div className="screen">
-              <img src={data.image} alt={data.name} />
+              <a href={data.profileLink}>
+                <img src={data.image} alt={data.name} />
+              </a>
             </div>
             <Carousel.Caption>
               <a href={data.profileLink}>
@@ -46,6 +48,7 @@ const StyledTestimonial = styled(StyledAbout)`
     width: 100%;
     height: 70vh;
     vertical-align: center;
+    padding-top: 2rem;
     img {
       display: block;
       margin-left: auto;

@@ -6,12 +6,14 @@ const ExperienceDetails = ({ id, close }) => {
   const experience = experienceData.filter((x) => x.id === id)[0];
   // Handler
   const exitGameDetailHandler = (e) => {
+    console.log(e);
     const element = e.target;
     if (element.classList.contains("shadow")) {
       document.body.style.overflow = "auto";
       close();
     }
   };
+  let i = 1;
   return (
     <StyledCardShadow className="shadow" onClick={exitGameDetailHandler}>
       <StyledExperienceDetails layoutId={id.toString()} layout>
@@ -22,9 +24,19 @@ const ExperienceDetails = ({ id, close }) => {
         <p>{`${experience.from} - ${experience.to}`}</p>
         <hr />
         {experience.description.map((des) => (
-          <p style={{ color: "white" }}>{des}</p>
+          <p key={i++} style={{ color: "white" }}>
+            {des}
+          </p>
         ))}
-        <button onClick={close}>X</button>
+        <button
+          className="shadow"
+          onClick={(e) => {
+            close(e);
+            exitGameDetailHandler(e);
+          }}
+        >
+          X
+        </button>
       </StyledExperienceDetails>
     </StyledCardShadow>
   );
@@ -59,6 +71,7 @@ const StyledExperienceDetails = styled(motion.div)`
   left: 8%;
   p {
     padding: 0;
+    line-height: 1rem;
   }
 
   button {

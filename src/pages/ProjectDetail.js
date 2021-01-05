@@ -44,9 +44,16 @@ const ProjectDetail = () => {
               />
             ))}
           </AwardsStyle>
-          <StyledSecondaryImage>
-            <img src={project.secondaryImg} alt={project.title} />
-          </StyledSecondaryImage>
+          <div className="center-button">
+            <a href={project.githubUrl}>
+              <button>View Source Code</button>
+            </a>
+          </div>
+          {project.secondaryImg && (
+            <StyledSecondaryImage>
+              <img src={project.secondaryImg} alt={project.title} />
+            </StyledSecondaryImage>
+          )}
         </StyledProject>
       )}
     </>
@@ -55,27 +62,38 @@ const ProjectDetail = () => {
 
 const StyledProject = styled(motion.div)`
   color: white;
+  .center-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
 `;
 
 const StyledHeadline = styled.div`
-  min-height: 90vh;
-  padding-top: 20vh;
+  /* min-height: 90vh; */
+  padding-top: 5vh;
   position: relative;
 
   h2 {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -10%);
+    /* position: absolute; */
+    /* top: 10%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -10%); */
     @media (max-width: 1290px) {
       width: 300px;
+      font-size: 2rem;
     }
   }
 
   img {
     width: 100%;
-    height: 70vh;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
+    /* @media (min-width: 1290px) {
+      width: 100%;
+      height: 70vh;
+      object-fit: cover;
+    } */
   }
 `;
 
@@ -92,11 +110,16 @@ const AwardsStyle = styled.div`
 `;
 
 const StyledSecondaryImage = styled.div`
-  min-height: 50vh;
+  /* min-height: 50vh; */
   img {
     width: 100%;
-    height: 100vh;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
+    /* @media (min-width: 1290px) {
+      width: 100%;
+      height: 70vh;
+      object-fit: cover;
+    } */
   }
 `;
 

@@ -21,18 +21,10 @@ const MyExperienceSection = () => {
           My <span>experience</span>.
         </h2>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam,
-          architecto eveniet? Dicta ad exercitationem error similique corporis
-          recusandae quaerat nihil modi sequi, numquam ullam repudiandae illo
-          impedit aspernatur molestiae consectetur dolor repellendus assumenda
-          temporibus. Neque eos error quisquam sint at, iure ipsum! Perspiciatis
-          et illo consequuntur dolores saepe in excepturi? Culpa nisi
-          repudiandae dolores distinctio, hic odio assumenda fugit officia autem
-          harum expedita placeat, dicta eius a consequatur nulla similique
-          suscipit, quaerat maiores? Tempore pariatur praesentium magnam aperiam
-          nemo itaque totam natus, deserunt tempora accusamus in, sed omnis
-          fugiat molestias blanditiis laborum fuga harum dolorem assumenda?
-          Eaque quisquam cumque dolorem.
+          I currently have total experience of
+          {` ${new Date().getFullYear() - 2019} Years`} and
+          {` ${new Date().getMonth()} months`}. Click on cards below to know
+          more about each of my roles so far.
         </p>
         <motion.div className="timeline">
           <AnimateSharedLayout type="crossfade">

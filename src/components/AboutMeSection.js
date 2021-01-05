@@ -1,7 +1,7 @@
 // Components
 import Wave from "./Wave";
 // Images
-import MyImage from "../img/home1.png";
+import abhishekShrivastava1 from "../img/abhishek-shrivastava-1.jpg";
 // Styles
 import {
   StyledAbout,
@@ -21,16 +21,16 @@ const AboutMeSection = () => {
       <StyledDescription>
         <div className="title">
           <StyledHide>
-            <motion.h2 variants={slideUp}>I work to make</motion.h2>
+            <motion.h2 variants={slideUp}>Think twice</motion.h2>
           </StyledHide>
           <StyledHide>
             <motion.h2 variants={slideUp}>
-              your <span>dreams</span>
+              <span>code</span> once.
             </motion.h2>
           </StyledHide>
-          <StyledHide>
-            <motion.h2 variants={slideUp}>come true.</motion.h2>
-          </StyledHide>
+          {/* <StyledHide>
+            <motion.h2 variants={slideUp}>once.</motion.h2>
+          </StyledHide> */}
         </div>
         <motion.p variants={fadeIn}>
           I am a software engineer, a passionate coding enthusiast, in love with
@@ -49,7 +49,7 @@ const AboutMeSection = () => {
       <StyledImage>
         <motion.img
           variants={zoomOut}
-          src={MyImage}
+          src={abhishekShrivastava1}
           alt="Abhishek Shrivastava"
         />
       </StyledImage>

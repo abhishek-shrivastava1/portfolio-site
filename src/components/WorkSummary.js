@@ -36,6 +36,7 @@ const StyledProject = styled(motion.div)`
     height: 70vh;
     width: 100%;
     object-fit: cover;
+    border: 1px solid #a7a5a5;
   }
 `;
 

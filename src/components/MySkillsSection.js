@@ -1,5 +1,5 @@
 // images
-import HomeImage from "../img/home2.png";
+import abhishekShrivastava2 from "../img/abhishek-shrivastava-2.jpg";
 // Styled Component
 import {
   StyledAbout,
@@ -42,7 +42,7 @@ const MySkillsSection = () => {
         </StyledCards>
       </StyledDescription>
       <StyledImage>
-        <img src={HomeImage} alt="camera" />
+        <img src={abhishekShrivastava2} alt="Abhishek Shrivastava" />
       </StyledImage>
     </StyledSkills>
   );
