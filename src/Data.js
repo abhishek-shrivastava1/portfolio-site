@@ -458,7 +458,7 @@ export const testimonialData = [
     image: samira,
     testimonial:
       "We have been hands on various projects together and Abhishek is one of the best people I had as a patner, He has strong problem solving skills and his ability for tackling problems is remarkable! His dedication to work on various projects and desire to learn various technologies has always inspired me, as a team member Abhishek earns my highest recommendation.",
-    date: "11/12/2020",
+    date: "5th January 2021",
     profileLink:
       "https://www.linkedin.com/in/rashmi-shrivastava-3280b983/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BSmnL%2FK9MQx20jdDY0UZzrA%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-recommendation_details_profile",
   },
