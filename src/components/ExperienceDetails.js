@@ -71,7 +71,7 @@ const StyledExperienceDetails = styled(motion.div)`
   left: 8%;
   p {
     padding: 0;
-    line-height: 1rem;
+    line-height: 20px;
   }
 
   button {
