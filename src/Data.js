@@ -442,16 +442,16 @@ export const testimonialData = [
     profileLink:
       "https://www.linkedin.com/in/rashmi-shrivastava-3280b983/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BSmnL%2FK9MQx20jdDY0UZzrA%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-recommendation_details_profile",
   },
-  {
-    id: 3,
-    name: "Gulfam Ali",
-    image: gulfam,
-    testimonial:
-      "Abhishek is a fantastic person to work with, and is not only a multi-skilled and insightful colleague, but also an inspiring strategist. Very good person & a great employee with a very strong problem solving skills, inspite of being a fresher. Desire for proficiency and education makes Abhishek a valuable asset to the team & any company.",
-    date: "28/11/2019",
-    profileLink:
-      "https://www.linkedin.com/in/vasanti-derkar-0a3540143/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BksN3tRdOQGWg8t69InWJ%2BA%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-recommendation_details_profile",
-  },
+  // {
+  //   id: 3,
+  //   name: "Gulfam Ali",
+  //   image: gulfam,
+  //   testimonial:
+  //     "Abhishek is a fantastic person to work with, and is not only a multi-skilled and insightful colleague, but also an inspiring strategist. Very good person & a great employee with a very strong problem solving skills, inspite of being a fresher. Desire for proficiency and education makes Abhishek a valuable asset to the team & any company.",
+  //   date: "28/11/2019",
+  //   profileLink:
+  //     "https://www.linkedin.com/in/vasanti-derkar-0a3540143/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BksN3tRdOQGWg8t69InWJ%2BA%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-recommendation_details_profile",
+  // },
   {
     id: 4,
     name: "Samira Nikharge",
