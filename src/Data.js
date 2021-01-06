@@ -181,25 +181,25 @@ export const FaqData = [
     id: 1,
     question: "What kind of projects do I want to work on?",
     answer:
-      "I would prefer to work on challenging projects on which I can apply my fullstack skills. I would like to work on projects that are very large scale. ",
+      "I would want to work on scalable projects which would give me an opportunity to enhance my core skills and exhibite the best of my ablitites.",
   },
   {
     id: 2,
     question: "What kind of technologies intrests me?",
     answer:
-      "I am currently very intrested in working on technologies like SpringBoot, ReactJS. I prefer to work on projects that use microservices architecture.",
+      "I am currently very intrested in working on technologies like SpringBoot, ReactJS. I prefer to work on projects that use microservices architecture. My preference would be projects, where I can apply my fullstack skills.",
   },
   {
     id: 3,
     question: "What kind of opportunities am I open to?",
     answer:
-      "I am pretty open to all kinds of opportunities, be it full-time, part-time, freelance or consultation based projects as long as they are challenging and fun. ",
+      "I would want a deep learning curve and I am pretty open to all kinds of opportunities, be it full-time, part-time, freelance or consultation based projects. Work coming my way should satisfy my hunger to learn and should offer challenging and fun filled exposure.",
   },
   {
     id: 4,
     question: "What are the other things that I am intrested in?",
     answer:
-      "Other than work, I am intrested in playing volleyball, skating, gaming and binge watching. I also love to eat and hangout with loved ones.",
+      "Other than work, I believe in physical fitness and I love all sorts of sports. I am intrested in playing volleyball, skating, gaming and binge watching. I also love to eat and hangout with loved ones.",
   },
 ];
 
@@ -372,6 +372,7 @@ export const experienceData = [
     company: "Digital Media Hub",
     from: "March 2020",
     to: "September 2020",
+    companyWebsite: "https://www.digitalmediahub.xyz/",
     timelineDate: "March 2020",
     description: [
       "- Responsible for planning, development & delivery of the websites handled.",
@@ -387,6 +388,7 @@ export const experienceData = [
     company: "Proctur - Eduspace Technologies Pvt. Ltd.",
     from: "June 2019",
     to: "August 2019",
+    companyWebsite: "https://proctur.com",
     timelineDate: "June 2019",
     description: [
       "- Responsible for designing & development of a super-admin product for in-house operations using SpringBoot & MySQL",
@@ -401,6 +403,7 @@ export const experienceData = [
     company: "Proctur - Eduspace Technologies Pvt. Ltd.",
     from: "April 2019",
     to: "May 2019",
+    companyWebsite: "https://proctur.com",
     timelineDate: "April 2019",
     description: [
       "- Created and managed API documentation",
@@ -413,6 +416,7 @@ export const experienceData = [
     company: "Digital Media Hub",
     from: "January 2019",
     to: "March 2019",
+    companyWebsite: "https://www.digitalmediahub.xyz/",
     timelineDate: "January 2019",
     description: [
       "- Responsible for developing front end unsing WordPress, HTML / CSS & JavaScript",

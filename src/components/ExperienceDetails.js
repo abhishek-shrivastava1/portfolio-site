@@ -18,9 +18,11 @@ const ExperienceDetails = ({ id, close }) => {
     <StyledCardShadow className="shadow" onClick={exitGameDetailHandler}>
       <StyledExperienceDetails layoutId={id.toString()} layout>
         <h2>{experience.designation}</h2>
-        <h3>
-          <span>{experience.company}</span>
-        </h3>
+        <a href={experience.companyWebsite}>
+          <h3>
+            <span>{experience.company}</span>
+          </h3>
+        </a>
         <p>{`${experience.from} - ${experience.to}`}</p>
         <hr />
         {experience.description.map((des) => (
