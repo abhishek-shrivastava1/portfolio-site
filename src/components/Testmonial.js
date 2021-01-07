@@ -47,8 +47,14 @@ const StyledTestimonial = styled(StyledAbout)`
   .screen {
     width: 100%;
     height: 70vh;
+    @media (max-width: 600px) {
+      height: 100vh;
+    }
     vertical-align: center;
     padding-top: 2rem;
+    @media (max-width: 600px) {
+      padding-top: 10rem;
+    }
     img {
       display: block;
       margin-left: auto;

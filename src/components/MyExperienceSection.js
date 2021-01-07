@@ -79,6 +79,9 @@ const StyledMyExperience = styled(StyledAbout)`
         bottom: -0.4rem;
         right: -12rem;
         font-weight: bold;
+        @media (max-width: 1290px) {
+          right: -10rem;
+        }
       }
     }
     li:nth-child(odd):before {
@@ -91,6 +94,12 @@ const StyledMyExperience = styled(StyledAbout)`
       right: -4.5rem;
       box-shadow: 0 0 0 3px rgb(35, 217, 151, 0.2);
       bottom: 0;
+      @media (max-width: 950px) {
+        right: -1.2rem;
+      }
+      @media (max-width: 1290px) {
+        right: -11rem;
+      }
     }
     li:nth-child(even) {
       float: right;
@@ -100,6 +109,9 @@ const StyledMyExperience = styled(StyledAbout)`
         bottom: -0.4rem;
         left: -12rem;
         font-weight: bold;
+        @media (max-width: 1290px) {
+          left: -10rem;
+        }
       }
     }
 
@@ -113,6 +125,12 @@ const StyledMyExperience = styled(StyledAbout)`
       left: -4.5rem;
       box-shadow: 0 0 0 3px rgb(35, 217, 151, 0.2);
       bottom: 0;
+      @media (max-width: 1290px) {
+        left: -1.2rem;
+      }
+      @media (max-width: 1290px) {
+        left: -11rem;
+      }
     }
 
     .timeline::before {

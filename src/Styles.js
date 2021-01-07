@@ -34,7 +34,8 @@ export const StyledDescription = styled.div`
   @media (max-width: 1290px) {
     padding: 0;
     button {
-      margin: 2rem 0 5rem 0;
+      /* margin: 2rem 0 5rem 0; */
+      margin-bottom: 1rem;
     }
   }
 `;
@@ -47,6 +48,15 @@ export const StyledImage = styled(motion.div)`
     width: 100%;
     height: 80vh;
     object-fit: cover;
+    @media (max-width: 768px) {
+      width: 80%;
+      height: 80%;
+    }
+    @media (max-width: 1290px) {
+      width: 80%;
+      height: 50%;
+      object-fit: cover;
+    }
   }
 `;
 
@@ -60,4 +70,10 @@ export const StyledCards = styled(motion.div)`
   justify-content: space-evenly;
   padding-bottom: 2rem;
   position: relative;
+  @media (max-width: 400px) {
+    flex-direction: column;
+  }
+  @media (min-width: 1290px) {
+    padding: 0 6rem;
+  }
 `;

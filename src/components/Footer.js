@@ -9,7 +9,7 @@ const Footer = () => {
         style={{
           display: "flex",
           alignItems: "center",
-          margin: "0 15rem",
+          // margin: "0 15rem",
           flexDirection: "column",
           justifyContent: "center",
         }}
@@ -27,15 +27,10 @@ const StyledSocials = styled.div`
   @media (max-width: 1290px) {
     display: block;
   }
-  /* display: flex; */
   ul {
     list-style-type: none;
     i {
       color: #cecece;
-    }
-
-    a {
-      /* text-decoration: none; */
     }
   }
   p {
@@ -53,6 +48,9 @@ const StyledSocials = styled.div`
     padding: 0.5rem;
     @media (max-width: 1290px) {
       width: 350px;
+    }
+    @media (max-width: 400px) {
+      width: 200px;
     }
   }
 `;
