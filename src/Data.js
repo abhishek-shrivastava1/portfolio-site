@@ -47,7 +47,7 @@ export const projectData = [
   },
   {
     id: 2,
-    title: "PayNow! - Payment mangement dashboard",
+    title: "PayNow! - Payment management dashboard",
     mainImg: payNow,
     url: "/work/pay-now",
     // secondaryImg: goodtimes2,
