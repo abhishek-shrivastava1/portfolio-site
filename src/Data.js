@@ -185,9 +185,9 @@ export const FaqData = [
   },
   {
     id: 2,
-    question: "What kind of technologies intrests me?",
+    question: "What kind of technologies interests me?",
     answer:
-      "I am currently very intrested in working on technologies like SpringBoot, ReactJS. I prefer to work on projects that use microservices architecture. My preference would be projects, where I can apply my fullstack skills.",
+      "I am currently very interested in working on technologies like SpringBoot, ReactJS. I prefer to work on projects that use microservices architecture. My preference would be projects, where I can apply my fullstack skills.",
   },
   {
     id: 3,
@@ -197,9 +197,9 @@ export const FaqData = [
   },
   {
     id: 4,
-    question: "What are the other things that I am intrested in?",
+    question: "What are the other things that I am interested in?",
     answer:
-      "Other than work, I believe in physical fitness and I love all sorts of sports. I am intrested in playing volleyball, skating, gaming and binge watching. I also love to eat and hangout with loved ones.",
+      "Other than work, I believe in physical fitness and I love all sorts of sports. I am interested in playing volleyball, skating, gaming and binge watching. I also love to eat and hangout with loved ones.",
   },
 ];
 
