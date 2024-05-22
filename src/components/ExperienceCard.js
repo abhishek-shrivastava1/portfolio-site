@@ -34,7 +34,7 @@ const StyledExperienceCard = styled(motion.div)`
   }
   h2 {
     font-size: 2rem;
-    color: #23d997;
+    color: #fffade;
   }
   h3 {
     margin: 0.5rem 0 0.2rem;

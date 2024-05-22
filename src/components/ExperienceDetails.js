@@ -91,7 +91,7 @@ const StyledExperienceDetails = styled(motion.div)`
     width: 0.5rem;
   }
   &::-webkit-scrollbar-thumb {
-    background-color: #23d997;
+    background-color: #fffade;
     border-radius: 1rem;
   }
   &::-webkit-scrollbar-track {

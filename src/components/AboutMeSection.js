@@ -1,7 +1,7 @@
 // Components
 import Wave from "./Wave";
 // Images
-import abhishekShrivastava1 from "../img/abhishek-shrivastava-1.jpg";
+import abhishekShrivastava1 from "../img/abhishek-2.jpeg";
 // Styles
 import {
   StyledAbout,
@@ -33,16 +33,12 @@ const AboutMeSection = () => {
           </StyledHide> */}
         </div>
         <motion.p variants={fadeIn}>
-          I am a software engineer, a passionate coding enthusiast, in love with
-          solving real world problems with the power of coding since i was 13. I
-          am highly organized, I take my time to analyze before I move forward
-          and I aspire to utilize my skills in an organization which gives me an
-          opportunity to learn and grow.
+          Seasoned software developer adept at crafting scalable solutions. Proven track record in leading complex projects to success. Specializing in innovative designs and implementations that optimize performance and user experience.
         </motion.p>
         <Link to="/contact">
           <motion.button variants={fadeIn}>Contact Me</motion.button>
         </Link>
-        <motion.a href="https://drive.google.com/u/1/uc?id=1_BT_guPhyfwGn4Eq3LlzpJBEX4cvWGAU&export=download">
+        <motion.a href="https://drive.google.com/uc?export=download&id=1QjuMeetjrEETgdgzMs5SOf-M6ODMDRt9">
           <motion.button variants={fadeIn}>Download my resume</motion.button>
         </motion.a>
       </StyledDescription>

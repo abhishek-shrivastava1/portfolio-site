@@ -26,7 +26,7 @@ const StyledCard = styled(motion.div)`
     text-decoration: none;
   }
   i {
-    color: #23d997;
+    color: #182485;
   }
   .icon {
     display: flex;

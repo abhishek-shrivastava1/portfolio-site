@@ -1,5 +1,5 @@
 // images
-import abhishekShrivastava2 from "../img/abhishek-shrivastava-2.jpg";
+import abhishekShrivastava2 from "../img/abhishek-1.jpeg";
 // Styled Component
 import {
   StyledAbout,

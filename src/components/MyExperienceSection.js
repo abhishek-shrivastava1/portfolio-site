@@ -89,7 +89,7 @@ const StyledMyExperience = styled(StyledAbout)`
       position: absolute;
       width: 10px;
       height: 10px;
-      background: #23d997;
+      background: #fffade;
       border-radius: 50%;
       right: -4.5rem;
       box-shadow: 0 0 0 3px rgb(35, 217, 151, 0.2);
@@ -120,7 +120,7 @@ const StyledMyExperience = styled(StyledAbout)`
       position: absolute;
       width: 10px;
       height: 10px;
-      background: #23d997;
+      background: #fffade;
       border-radius: 50%;
       left: -4.5rem;
       box-shadow: 0 0 0 3px rgb(35, 217, 151, 0.2);

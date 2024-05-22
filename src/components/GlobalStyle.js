@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
             width: 0.5rem;
         }
         &::-webkit-scrollbar-thumb {
-            background-color: #23d997;
+            background-color: #fffade;
             border-radius: 1rem;
         }
         &::-webkit-scrollbar-track {
@@ -34,12 +34,12 @@ const GlobalStyle = createGlobalStyle`
         font-size: 1.1.rem;
         cursor: pointer;
         padding: 1rem 2rem;
-        border: 3px solid #23d997;
+        border: 3px solid #fffade;
         background: transparent;
         transition: all 0.5s ease;
         color: white;
         &:hover{
-            background-color: #23d997;
+            background-color: #fffade;
             color: white;
         }
     }
@@ -59,7 +59,7 @@ const GlobalStyle = createGlobalStyle`
 
     span {
         font-weight: bold;
-        color: #23d997;
+        color: #fffade;
     }
 
     a {

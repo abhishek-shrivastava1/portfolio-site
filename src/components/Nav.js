@@ -105,7 +105,7 @@ const StyledNav = styled.nav`
 `;
 const StyledLine = styled(motion.div)`
   height: 0.3rem;
-  background: #23d997;
+  background: #fffade;
   width: 0;
   position: absolute;
   /* bottom: 10px; */

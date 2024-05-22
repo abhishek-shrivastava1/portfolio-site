@@ -214,9 +214,9 @@ export const socialDetails = [
   },
   {
     id: 2,
-    icon: "fab fa-facebook fa-2x",
-    name: "Facebook",
-    link: "https://www.facebook.com/abhishek.shrivastava.188478",
+    icon: "fa fa-code fa-2x",
+    name: "Leetcode",
+    link: "https://leetcode.com/u/abhis1497/",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, repellendus.",
   },
@@ -236,25 +236,17 @@ export const socialDetails = [
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, repellendus.",
   },
-  {
-    id: 5,
-    icon: "fab fa-hackerrank fa-2x",
-    name: "HackerRank",
-    link: "https://www.hackerrank.com/abhis1497",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, repellendus.",
-  },
-  {
-    id: 6,
-    icon: "fas fa-code fa-2x",
-    name: "Code Chef",
-    link: "https://www.codechef.com/users/abhis1497",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, repellendus.",
-  },
+  // {
+  //   id: 6,
+  //   icon: "fas fa-code fa-2x",
+  //   name: "Code Chef",
+  //   link: "https://www.codechef.com/users/abhis1497",
+  //   description:
+  //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, repellendus.",
+  // },
 
   {
-    id: 7,
+    id: 5,
     icon: "fas fa-envelope fa-2x",
     name: "Email",
     link: "mailto:abhis1497@gmail.com",
@@ -262,10 +254,26 @@ export const socialDetails = [
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, repellendus.",
   },
   {
-    id: 8,
+    id: 6,
+    icon: "fab fa-facebook fa-2x",
+    name: "Facebook",
+    link: "https://www.facebook.com/abhishek.shrivastava.188478",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, repellendus.",
+  },
+  {
+    id: 7,
     icon: "fab fa-instagram fa-2x",
     name: "Instagram",
     link: "https://www.instagram.com/abhishek__s/",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, repellendus.",
+  },
+  {
+    id: 8,
+    icon: "fab fa-hackerrank fa-2x",
+    name: "HackerRank",
+    link: "https://www.hackerrank.com/abhis1497",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam, repellendus.",
   },
@@ -348,26 +356,27 @@ export const contactInformation = [
 export const experienceData = [
   {
     id: 1,
-    designation: "Software Engineer",
-    company: "Proctur - Eduspace Technologies Pvt. Ltd.",
-    from: "September 2019",
+    designation: "Senior Software Development Engineer",
+    company: "Assurekit Technology and Services Private Limited (Series A)",
+    from: "April 2021",
     to: "Current",
-    companyWebsite: "https://proctur.com",
-    timelineDate: "September 2019",
+    companyWebsite: "https://assurekit.com/",
+    timelineDate: "April 2021",
     description: [
-      "- Responsible for designing & development of advance features of a super-admin product",
-      "- Implemented JWT in the product",
-      "- Integration with various platform such as Facebook lead, Zoom and Proctur Live.",
-      "- Interactions with the client side as and when needed",
-      "- Responsible for implementation of major features like Role base access control,",
-      "- Single device login, Proctur live and other CRON Jobs",
-      "- Responsible for development front end features using html CSS javascript",
-      "- jQuery and JSP.",
-      "- Actively involved in deployment & sanity of new features",
-    ],
+      "- Developed products that serve as underlying layers for various product lines for clients like Paytm, Lazypay, Jobsurance and Refyne.",
+      "- Led a team of 7 people and delivered health insurance vertical within a short period maintaining quality which involved working closely with stakeholders, designing the system and delivering frontend, backend and supporting infrastructure.",
+      "- Contributed significantly to the design and development of income protection by creating 12 microservices, serving over 1 million users.",
+      "- Architected services end-to-end from API design, entity-relation modelling, optimizations and documentation and had ownership of 6 microservices.",
+      "- Optimised API thereby decreasing the response time by 90% with the help of Redis for caching and by using indexing and optimising query which has more than 2M+ records",
+      "- Designed, developed and tested scalable and maintainable API that can handle up to 1000+ requests per second.",
+      "- Created separate queues for lower runtime clients which led to reduction in Amazon SQS waiting time by 60%.",
+      "- Mentored junior developers, conducting code reviews and providing guidance on best practices, resulting in a 20% decrease in the team's overall bugs in sprint.",
+      "- Reduced deployment time and effort from 1 day to 2 hours by implementing CI/CD pipelines and automating changelog and versioning processes",
+      "- Tech Stack: SpringBoot, ReactJS, MongoDB, MySQL, NodeJS, Express, AWS, Lambda, CICD, Amazon SQS, S3, EC2, Java, Javascript, Typescript, Redis."
+    ]
   },
   {
-    id: 2,
+    id: 3,
     designation: "Web Development Consultant",
     company: "Digital Media Hub",
     from: "March 2020",
@@ -375,54 +384,30 @@ export const experienceData = [
     companyWebsite: "https://www.digitalmediahub.xyz/",
     timelineDate: "March 2020",
     description: [
-      "- Responsible for planning, development & delivery of the websites handled.",
-      "- Major role in front end development",
-      "- Managing & assigning a team of two full time developers of the company",
-      "- Trouble shooting issues",
-      "- Developed web app using ReactJS, HTML/CSS, JavaScript",
+      "- Delivered successful launch of 6+ websites, managing the entire lifecycle from production and test environment setup to database integration and live deployment helping generate $5000+ in revenue",
+      "- Provided comprehensive support and training to clients post-delivery, ensuring seamless transition and empowering users with the necessary skills for effective application utilization.",
+      "- Improved project success by implementing Agile methodologies, ensuring on-time delivery through iterative development, continuous improvement, transparent communication and team coordination.",
+      "- Tech Stack: HTML, CSS, WordPress, Javascript, MySQL, JIRA, Figma.",
+      "- Link: https://stylesters.com | https://www.ajmotors.in | https://www.encubay.com",
     ],
   },
   {
-    id: 3,
-    designation: "Software Trainee",
+    id: 2,
+    designation: "Software Development Engineer (Backend)",
     company: "Proctur - Eduspace Technologies Pvt. Ltd.",
-    from: "June 2019",
-    to: "August 2019",
+    from: "September 2019",
+    to: "April 2021",
     companyWebsite: "https://proctur.com",
-    timelineDate: "June 2019",
+    timelineDate: "September 2019",
     description: [
-      "- Responsible for designing & development of a super-admin product for in-house operations using SpringBoot & MySQL",
-      "- Responsible for complete SDLC for same",
-      "- Major role in developing backend",
-      "- Creation and maintenance of documentation",
+      "- Contributed towards designing, developing and optimizing a system that handled 300K users.",
+      "- Initiated and independently crafted the Super Admin product, overseeing its entire development lifecycle",
+      "- Implemented CRON jobs to process attendance of students that could process 1M+ records every day",
+      "- Optimized query time by identifying query bottlenecks, adding relevant indexes, and performing load tests.",
+      "- Developed RESTful APIs using SpringBoot REST Framework for seamless integration with external services and third-party applications.",
+      "- Tech Stack: SpringBoot, ReactJS, MySQL, S3, AWS."
     ],
-  },
-  {
-    id: 4,
-    designation: "Software Intern",
-    company: "Proctur - Eduspace Technologies Pvt. Ltd.",
-    from: "April 2019",
-    to: "May 2019",
-    companyWebsite: "https://proctur.com",
-    timelineDate: "April 2019",
-    description: [
-      "- Created and managed API documentation",
-      "- Created API on SpringBoot for the inhouse product",
-    ],
-  },
-  {
-    id: 5,
-    designation: "Freelance Web Developer",
-    company: "Digital Media Hub",
-    from: "January 2019",
-    to: "March 2019",
-    companyWebsite: "https://www.digitalmediahub.xyz/",
-    timelineDate: "January 2019",
-    description: [
-      "- Responsible for developing front end unsing WordPress, HTML / CSS & JavaScript",
-      "- Responsible for planning timelines, Submission & Deployment",
-    ],
-  },
+  }
 ];
 
 export const testimonialData = [

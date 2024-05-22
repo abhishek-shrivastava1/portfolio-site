@@ -28,7 +28,7 @@ const StyledProject = styled(motion.div)`
   overflow: hidden;
   .line {
     height: 0.3rem;
-    background: #23d997;
+    background: #fffade;
     margin-bottom: 3rem;
   }
 

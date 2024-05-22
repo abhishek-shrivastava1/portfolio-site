@@ -43,7 +43,7 @@ const StyledCard = styled(motion.div)`
     }
   }
   i {
-    color: #23d997;
+    color: #fffade;
   }
   .icon {
     display: flex;
@@ -59,7 +59,7 @@ const StyledCard = styled(motion.div)`
 const StyledLine = styled(motion.div)`
   height: 0.3rem;
   position: relative;
-  background: #23d997;
+  background: #fffade;
   margin-top: 1rem;
   width: 0;
   z-index: 2;
