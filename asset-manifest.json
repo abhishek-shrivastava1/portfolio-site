@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.2695547b.chunk.js",
-    "main.js.map": "/static/js/main.2695547b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c0ce2f41.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c0ce2f41.js.map",
-    "static/js/2.d7ff95bb.chunk.js": "/static/js/2.d7ff95bb.chunk.js",
-    "static/js/2.d7ff95bb.chunk.js.map": "/static/js/2.d7ff95bb.chunk.js.map",
-    "static/js/3.64f5c73f.chunk.js": "/static/js/3.64f5c73f.chunk.js",
-    "static/js/3.64f5c73f.chunk.js.map": "/static/js/3.64f5c73f.chunk.js.map",
+    "main.js": "/static/js/main.daf6db2f.chunk.js",
+    "main.js.map": "/static/js/main.daf6db2f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b36e554a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b36e554a.js.map",
+    "static/js/2.88f0323b.chunk.js": "/static/js/2.88f0323b.chunk.js",
+    "static/js/2.88f0323b.chunk.js.map": "/static/js/2.88f0323b.chunk.js.map",
+    "static/js/3.8a2309cd.chunk.js": "/static/js/3.8a2309cd.chunk.js",
+    "static/js/3.8a2309cd.chunk.js.map": "/static/js/3.8a2309cd.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.d7ff95bb.chunk.js.LICENSE.txt": "/static/js/2.d7ff95bb.chunk.js.LICENSE.txt",
-    "static/media/abhishek-shrivastava-1.ef4107c5.jpg": "/static/media/abhishek-shrivastava-1.ef4107c5.jpg",
-    "static/media/abhishek-shrivastava-2.da784f6f.jpg": "/static/media/abhishek-shrivastava-2.da784f6f.jpg",
+    "static/js/2.88f0323b.chunk.js.LICENSE.txt": "/static/js/2.88f0323b.chunk.js.LICENSE.txt",
+    "static/media/abhishek-1.b175e164.jpeg": "/static/media/abhishek-1.b175e164.jpeg",
+    "static/media/abhishek-2.d8bd4b87.jpeg": "/static/media/abhishek-2.d8bd4b87.jpeg",
     "static/media/google-keeper-2.271e705e.png": "/static/media/google-keeper-2.271e705e.png",
     "static/media/google-keeper.e3f5433e.png": "/static/media/google-keeper.e3f5433e.png",
     "static/media/gulfam.52e8d6c7.jfif": "/static/media/gulfam.52e8d6c7.jfif",
@@ -29,8 +29,8 @@
     "static/media/vasanti.704dbd19.jfif": "/static/media/vasanti.704dbd19.jfif"
   },
   "entrypoints": [
-    "static/js/runtime-main.c0ce2f41.js",
-    "static/js/2.d7ff95bb.chunk.js",
-    "static/js/main.2695547b.chunk.js"
+    "static/js/runtime-main.b36e554a.js",
+    "static/js/2.88f0323b.chunk.js",
+    "static/js/main.daf6db2f.chunk.js"
   ]
 }
