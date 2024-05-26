@@ -16,6 +16,7 @@ import vasanti from "./img/vasanti.jfif";
 import rashmi from "./img/rashmi.jfif";
 import gulfam from "./img/gulfam.jfif";
 import samira from "./img/samira.jfif";
+import nishant from "./img/nishant.jpeg";
 
 export const projectData = [
   {
@@ -357,13 +358,13 @@ export const experienceData = [
   {
     id: 1,
     designation: "Senior Software Development Engineer",
-    company: "Assurekit Technology and Services Private Limited (Series A)",
+    company: "Assurekit Technology and Services Private Limited (Series A funded startup)",
     from: "April 2021",
     to: "Current",
     companyWebsite: "https://assurekit.com/",
     timelineDate: "April 2021",
     description: [
-      "- Developed products that serve as underlying layers for various product lines for clients like Paytm, Lazypay, Jobsurance and Refyne.",
+      "- Developed SaaS products that serve as underlying layers for various product lines for clients like Paytm, Lazypay, Jobsurance and Refyne.",
       "- Led a team of 7 people and delivered health insurance vertical within a short period maintaining quality which involved working closely with stakeholders, designing the system and delivering frontend, backend and supporting infrastructure.",
       "- Contributed significantly to the design and development of income protection by creating 12 microservices, serving over 1 million users.",
       "- Architected services end-to-end from API design, entity-relation modelling, optimizations and documentation and had ownership of 6 microservices.",
@@ -413,6 +414,16 @@ export const experienceData = [
 export const testimonialData = [
   {
     id: 1,
+    name: "Nishant Agarwal",
+    image: nishant,
+    testimonial:
+      "Abhishek has been a very hardworking and thorough employee. He is pro-active, logical & always seeks innovative solutions. I have always seen him taking lead, helping team members and owning responsibilities voluntarily. Would love to work with him again!",
+    date: "2nd June 2021",
+    profileLink:
+      "https://www.linkedin.com/in/mbanishantagarwal/",
+  },  
+  {
+    id: 2,
     name: "Vasanti Derkar",
     image: vasanti,
     testimonial:
@@ -422,7 +433,7 @@ export const testimonialData = [
       "https://www.linkedin.com/in/vasanti-derkar-0a3540143/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BksN3tRdOQGWg8t69InWJ%2BA%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_profile_view_base-recommendation_details_profile",
   },
   {
-    id: 2,
+    id: 3,
     name: "Rashmi Shrivastava",
     image: rashmi,
     testimonial:
