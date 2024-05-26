@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/static/js/main.daf6db2f.chunk.js",
-    "main.js.map": "/static/js/main.daf6db2f.chunk.js.map",
+    "main.js": "/static/js/main.ba0646cd.chunk.js",
+    "main.js.map": "/static/js/main.ba0646cd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b36e554a.js",
     "runtime-main.js.map": "/static/js/runtime-main.b36e554a.js.map",
     "static/js/2.88f0323b.chunk.js": "/static/js/2.88f0323b.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/ignite-2.8135a2b9.png": "/static/media/ignite-2.8135a2b9.png",
     "static/media/music-player-1.5b739c1d.png": "/static/media/music-player-1.5b739c1d.png",
     "static/media/music-player-2.82f95b4a.png": "/static/media/music-player-2.82f95b4a.png",
+    "static/media/nishant.b72ee29a.jpeg": "/static/media/nishant.b72ee29a.jpeg",
     "static/media/paynow-1.af5c8be6.png": "/static/media/paynow-1.af5c8be6.png",
     "static/media/rashmi.e9a396cd.jfif": "/static/media/rashmi.e9a396cd.jfif",
     "static/media/samira.1ef582c7.jfif": "/static/media/samira.1ef582c7.jfif",
@@ -31,6 +32,6 @@
   "entrypoints": [
     "static/js/runtime-main.b36e554a.js",
     "static/js/2.88f0323b.chunk.js",
-    "static/js/main.daf6db2f.chunk.js"
+    "static/js/main.ba0646cd.chunk.js"
   ]
 }
